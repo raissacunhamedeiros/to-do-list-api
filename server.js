@@ -70,7 +70,7 @@ app.post('/tarefas', (req, res) => {
     // Retorna a tarefa criada (o Front-end precisa do _id gerado)
     return res.status(201).json(novaTarefa);
 });
-
+// GET / POST / PUT/ DELETE codigos: 200/300/400/500
 // ===============================================
 // ROTA 3: DELETE /tarefas/:id (EXCLUIR TAREFA) - NOVO
 // ===============================================
